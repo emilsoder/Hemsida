@@ -1,0 +1,200 @@
+﻿/*social buttons*/
+.btn-social {
+    color: white;
+    opacity: 0.9;
+}
+
+    .btn-social:hover {
+        color: white;
+        opacity: 1;
+    }
+
+.btn-facebook {
+    background-color: #3b5998;
+    opacity: 0.9;
+}
+
+.btn-twitter {
+    background-color: #00aced;
+    opacity: 0.9;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8;
+    opacity: 0.9;
+}
+
+.btn-github {
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+.navbar {
+    background-color: #474C53;
+    color: black;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand:hover {
+    background-color: #474C53 !important;
+    font-size: 18.1px;
+}
+
+.navbar-nav {
+    border-radius: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+    a:focus,
+    a:hover {
+        color: #D5D5D5;
+    }
+
+    a:hover {
+        background-color: #5B5F64 !important;
+        font-size: 16.1px;
+    }
+
+.btnActive {
+    background-color: #00608D;
+    border-bottom: solid;
+    border-bottom-width: 15px;
+    margin-bottom: -35px;
+    border-bottom-color: #00608D;
+}
+
+    .btnActive:hover {
+        background-color: #00608D !important;
+    }
+
+.myNavbar {
+    background-color: #474C53;
+    color: black;
+}
+
+.collapse .navbar-collapse .active {
+    background-color: #00608D;
+    border-bottom: solid;
+    border-bottom-color: #00608D;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 5px 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    background-color: #4B535D;
+    background-image: none;
+    border: 1px solid whitesmoke;
+    border-radius: 1px;
+}
+
+    .navbar-toggle:hover,
+    .navbar-toggle:focus {
+        background-color: lightgray;
+    }
+
+
+@media (min-width:768px) {
+    .btnActive {
+        background-color: #00608D;
+        border-bottom: solid;
+        border-bottom-width: 15px;
+        margin-bottom: -35px;
+        border-bottom-color: #00608D;
+    }
+
+    .maincontainer {
+        height: 100%;
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-right: 15px;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background-color: transparent;
+        border-color: #00608D;
+    }
+
+    .childcontainer {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width:768px) {
+    .btnActive {
+        background-color: #00608D;
+        border-bottom: solid;
+        border-bottom-width: 0px;
+        margin-bottom: 0px;
+        border-bottom-color: #00608D;
+    }
+
+    .maincontainer {
+        padding-right: 5px !important;
+    }
+
+    .childcontainer {
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+}
+
+.container {
+    background-color: #00608D;
+    border-color: #00608D;
+}
+
+.childcontainer {
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+    background-color: #00608D;
+    border-color: #00608D;
+    border-radius: 5px;
+}
+
+.maincontainer {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 21px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    border-color: #00608D;
+}
+
+.page-header {
+    padding-bottom: 5px;
+    margin: 0px;
+    border-bottom: 0;
+}
+
+#linkbtn:hover {
+    background-color: #DCDDDE !important;
+}
